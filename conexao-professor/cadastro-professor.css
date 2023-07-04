@@ -1,0 +1,48 @@
+*{
+    margin: 0%;
+    }
+    .conteudo{
+        height: 420px;
+        width: 1fr;
+        padding-left: 155px;
+        padding-right: 0%;
+        margin-top: 100px;
+    }
+    .nome, .cpf, .email, .senha, .disciplinas{
+        height: 50px;
+        width: 600px;
+        padding: 10px;
+        background-color: white;
+        font-family:Georgia, 'Times New Roman', Times, serif;
+        font: rgb(97, 48, 48);
+    }
+    .endereco, .curso{
+        height: 50px;
+        width: 600px;
+        padding: 10px;
+        background-color: white;
+        font-family:Georgia, 'Times New Roman', Times, serif;
+        font: rgb(97, 48, 48);
+    }
+    input{
+        height: 25px;
+        background-color: rgb(231, 191, 196);
+        border-radius: 10px;
+        width: 100%;
+    }
+    .linha1, .linha2, .linha3, .linha4{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    button{
+        background-color: antiquewhite;
+        height: 30px;
+        width: 100px;
+        font-family:Georgia, 'Times New Roman', Times, serif;
+        font: rgb(97, 48, 48);
+        border-radius: 20px;
+    }
+    h1{
+        font-family:Georgia, 'Times New Roman', Times, serif;
+    }
